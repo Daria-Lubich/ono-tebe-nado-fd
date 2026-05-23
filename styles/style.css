@@ -1,1 +1,34 @@
+
+.body {
+
+}
+
+.header {
+height: 293px;
+} 
+
+.header-menu {
+
+}
+.header-menu-list {
+
+}
+.header-menu-link {
+
+}
+
+.active-link {
+  text-decoration: none;
+
+}
+
+.nav {
+display: flexbox;
+}
+
+.logo-black {
+ display: block;
+ width: 148px;
+ height: 105px;
+}
 /* место для вашего кода */
