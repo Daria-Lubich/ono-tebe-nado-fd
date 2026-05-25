@@ -1,34 +1,67 @@
 
 .body {
+  background-color: bisque;
 
 }
 
 .header {
+  display: flex;
+  width: 1100;
 height: 293px;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+
 } 
 
 .header-menu {
 
 }
 .header-menu-list {
+  height: ;
+  list-style-type: circle;
+  display: flex;
+  justify-content: space-between;
+  
+
+  
 
 }
 .header-menu-link {
+
+  /*margin: 20px;*/
 
 }
 
 .active-link {
   text-decoration: none;
+  
 
 }
 
-.nav {
-display: flexbox;
-}
+
 
 .logo-black {
- display: block;
+ /*display: block;*/
  width: 148px;
  height: 105px;
 }
+
+.header-address {
+  height: 98px;
+  width: 240px;
+  display: block;
+
+}
+.header-address-list {
+  display: flex;
+  flex-direction: column;
+font-family: ;
+ }
+ .header-address-link {
+
+ }
+
+
+
 /* место для вашего кода */
