@@ -14,8 +14,6 @@
   list-style-position: inside;
   display: flex;
   gap: 10px;
-  /*letter-spacing:;
-  /*justify-content: space-between;не работает из-за gap*/
 }
 
 .menu-list {
@@ -25,7 +23,6 @@
   text-underline-offset: 4px;
   margin-left: -6px;
   margin-right: 7px;
-  /*margin-right: 15px;*/
 }
 
 .active-link {
@@ -47,7 +44,7 @@
   display: block;
   height: 100%;
 }
-/*object-fit: contain; /* сохраняем пропорции изображения, не обрезая его */
+
 .address {
   padding-bottom: 4px;
   display: flex;
