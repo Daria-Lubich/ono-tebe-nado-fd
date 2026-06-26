@@ -10,9 +10,8 @@
 }
 .header-menu-list {
   list-style-type: circle;
-  list-style-position: inside;
   display: flex;
-  gap: 10px;
+  gap: 33px;
 }
 
 .menu-list {
@@ -20,13 +19,10 @@
 }
 .menu-link {
   text-underline-offset: 4px;
-  margin-left: -6px;
-  margin-right: 7px;
 }
 
 .active-link {
   text-decoration: none;
-  margin-right: 2px;
 }
 
 .list-reset {
@@ -48,7 +44,6 @@
 }
 
 .address {
-  padding-bottom: 4px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -65,7 +60,7 @@
 
 .address-link {
   text-underline-offset: 4px;
-  margin-bottom: 3px;
+  margin-bottom: 4px;
 }
 
 .cover {
@@ -183,7 +178,6 @@
 
 .card-text {
   font-family: "Raleway", sans-serif;
-  font-weight: 600px;
   font-size: 20px;
   z-index: 2;
 }
@@ -225,8 +219,8 @@
   align-items: center;
   padding-right: 24px;
   grid-template-columns: 383px auto;
-  grid-template-rows: 248px minmax(490px, auto);
   margin-top: 155px;
+  padding-bottom: 177px;
 }
 
 .logo-white {
@@ -276,15 +270,12 @@
 }
 .footer-menu {
   width: 300px;
-  padding-left: 14px;
 }
 .footer-menu-list {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /*letter-spacing:;
-  /*justify-content: space-between;не работает из-за gap*/
 }
 .footer-social-list {
   list-style: none;
